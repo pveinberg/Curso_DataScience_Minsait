@@ -37,7 +37,15 @@ select o.orderDate, sum(o2.priceEach * o2.quantityOrdered) as totalOrder
 	from orders o 
 	join orderdetails o2 on o2.orderNumber = o.orderNumber 
 	GROUP by o.orderDate
-
+	
+-- by products and categories
+SELECT o.orderDate, o.status, o.orderNumber, p.productName, o2.quantityOrdered, o2.priceEach,  
+	(o2.quantityOrdered * o2.priceEach) as totalLine, p2.productLine 
+	from orders o 
+	join orderdetails o2 on o2.orderNumber = o.orderNumber 
+	join products p on p.productCode = o2.productCode 
+	join productlines p2 on p2.productLine = p.productLine
+	WHERE status = 'Shipped'
 	
 	
 	
