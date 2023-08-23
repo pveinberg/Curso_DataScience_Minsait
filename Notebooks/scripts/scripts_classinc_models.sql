@@ -47,6 +47,25 @@ SELECT o.orderDate, o.status, o.orderNumber, p.productName, o2.quantityOrdered, 
 	join productlines p2 on p2.productLine = p.productLine
 	WHERE status = 'Shipped'
 	
+-- by employees
+SELECT o.orderDate, 
+		o2.quantityOrdered, o2.priceEach, (o2.quantityOrdered * o2.priceEach) as totalLine,
+		c.customerName, c.city  as customerCity, c.country as customerCountry, 
+		CONCAT(e.firstName, " ", e.lastName) as employeeName, e.jobTitle, e.reportsTo,  
+		o3.city as officeCity, o3.country as officeCountry, o3.territory 
+	from orders o 
+	join orderdetails o2 on o2.orderNumber = o.orderNumber 
+	join customers c on c.customerNumber = o.customerNumber 
+	join employees e on e.employeeNumber = c.salesRepEmployeeNumber 
+	join offices o3 on o3.officeCode = e.officeCode 
+	where o.status = 'Shipped'
+	
+SELECT employeeNumber, jobTitle  from employees e WHERE jobTitle LIKE  'Sale% Manager%'
+
+SELECT * from employees e2 
+	WHERE reportsTo in (SELECT employeeNumber  from employees e WHERE jobTitle LIKE  'Sale% Manager%')
+
 	
 	
+SELECT * from offices o 
 	
