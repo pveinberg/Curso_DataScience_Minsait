@@ -99,4 +99,3 @@ SELECT * from employees e2
 
 	
 SELECT * from offices o 
-	
