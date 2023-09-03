@@ -77,6 +77,8 @@ Na regressão linear simples, tem-se um conjunto de dados formado por **um únic
 
 ![regressao_linear_simples](./../../docs/imgs/regressao_linear_simples.png)
 
+[Exemplo 01](./exemplo_regressao_linear.ipynb)
+
 ## Classificação: Algoritmo k-NN
 __Vizinhos mais próximos__
 
@@ -86,7 +88,7 @@ __Vizinhos mais próximos__
 
 ![knn](./../../docs/imgs/knn.png)
 
-## Algoritmo Árvore de decisão
+## Classificação: Árvore de decisão
 O principal objetivo do algoritmo árvore de decisão é encontrar o atributo ou variável independente que melhor realiza a divisão dos dados.Uma árvore de decisão, utiliza a técnica de dividir para conquistar:
 * Um problema complexo é decomposto em subproblemas mais simples;
 * Recursivamente a mesma estratégia é aplicada cada subproblema.
