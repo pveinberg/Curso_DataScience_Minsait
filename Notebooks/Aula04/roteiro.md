@@ -86,6 +86,10 @@ __Vizinhos mais próximos__
 * Pode ser utilizado tanto para classificação quanto para regressão;
 * Tem variações definidas (principalmente) pelo número de vizinhos considerados.
 
+### Tipos de distâncias
+![distancias](./distancias.jpg)
+
+### Calculando distância euclideana usando a biblioteca `DistanceMetric`
 ![knn](./../../docs/imgs/knn.png)
 
 ## Classificação: Árvore de decisão
