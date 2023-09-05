@@ -107,3 +107,6 @@ Representa a **falta de uniformidade** ou uma medida de aleatoriedade nos dados.
 
 #### Ganho de informação
 É uma propriedade estatística que **mede quão bem um determinado atributo separa os exemplos de treinamento de acordo com sua classificação** alvo ou rótulo. Em outras palavras, o ganho de informação **representa a informação aprendida sobre os rótulos** quando dividimos uma região do espaço em duas sub-regiões de acordo com um critério de divisão como a entropia ou impureza (gini), citadas acima.
+
+## Bibliografia
+* [Steps to Solve a Data Science Problem](https://thecleverprogrammer.com/2023/09/05/steps-to-solve-a-data-science-problem/)
