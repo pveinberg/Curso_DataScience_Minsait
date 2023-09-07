@@ -18,7 +18,7 @@ avaliar se o modelo de fato está atendendo os requisitos necessários. Ademais,
 para realizar comparação de modelos.
 
 ### Métricas de avaliação de modelos de classificação [binária]
-(k-NN, por exemplo)
+(k-NN Classifier, por exemplo)
 
 Um modelo de classificação binária tem como objetivo decidir em qual classe uma nova observação pertence dentre duas classes possíveis. Em geral as duas classes, denominadas de positiva (P) e negativa (N), indicam a ocorrência ou não de um determinado evento. Um exemplo seria classificar se um determinado paciente possui uma determinada doença (positivo) ou não (negativo).
 
@@ -54,7 +54,7 @@ F–measure, F-score ou score F1 é uma média harmônica calculada com base na 
 
 ### Métricas de avaliação de modelos de regressão
 
-#### R2 score
+#### R2 Score
 Medida estatística que representa a proporção da variância para uma variável dependente que é explicada por uma variável independente em um modelo de regressão. Enquanto a correlação explica a força da relação entre uma variável independente e uma variável dependente, o R-quadrado explica até que ponto a variância de uma variável explica a variância da segunda variável. Portanto, se o R2 de um modelo for 0,50, aproximadamente metade da variação observada pode ser explicada pelas entradas do modelo, logo __R2 Score, normalmente, está entre 0 e 1, quanto mais próximo de 1, melhor o ajuste da regressão__.
 
 #### Erro médio (ME)
@@ -77,7 +77,7 @@ Na regressão linear simples, tem-se um conjunto de dados formado por **um únic
 
 ![regressao_linear_simples](./../../docs/imgs/regressao_linear_simples.png)
 
-[Exemplo 01](./exemplo_regressao_linear.ipynb)
+[Exemplo 01](./regressao_linear.ipynb)
 
 Para validar utiilizar [métricas de avaliação de modelos de regressão](#métricas-de-avaliação-de-modelos-de-regressão)
 
@@ -95,6 +95,8 @@ Para validar, utilizar [métricas de avaliação de modelos de classificação](
 
 ### Calculando distância euclideana usando a biblioteca `DistanceMetric`
 ![knn](./../../docs/imgs/knn.png)
+
+[Exemplo de código](./knn.ipynb)
 
 ## Classificação: Árvore de decisão
 O principal objetivo do algoritmo árvore de decisão é encontrar o atributo ou variável independente que melhor realiza a divisão dos dados.Uma árvore de decisão, utiliza a técnica de dividir para conquistar:
