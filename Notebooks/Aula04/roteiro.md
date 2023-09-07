@@ -91,7 +91,7 @@ __Vizinhos mais próximos__
 Para validar, utilizar [métricas de avaliação de modelos de classificação](#métricas-de-avaliação-de-modelos-de-classificação-binária)
 
 ### Tipos de distâncias
-![distancias](./distancias.jpg)
+![distancias](./images/distancias.jpg)
 
 ### Calculando distância euclideana usando a biblioteca `DistanceMetric`
 ![knn](./../../docs/imgs/knn.png)
@@ -120,7 +120,7 @@ Representa a **falta de uniformidade** ou uma medida de aleatoriedade nos dados.
   
 __Exemplo de clusterização__
 
-![clusterizacao](image.png)
+![clusterizacao](./images/clustering.png)
 
 ## Características principais
 
@@ -138,10 +138,59 @@ Representa a similaridade ou a dissimilaridade entre cada par de objetos.
 
 ## K-médias (K-means)
 
+* Um dos principais algoritmos de clusterização. 
+* Simplees __interoperabilidade__
+* Boa __eficiência computacional__
+
+### Algoritmos
+
+1. __Definição dos Centroides:__ Supondo que deve-se separar os dados em K grupos, para inicializar o modelo define-se K centroides iniciais aleatoriamente, que serão utilizados para os cálculos do modelo;
+2. __Agrupamentos dos K grupos:__ Dado os K grupos utilizados no modelo, cada uma das observações será associada ao centroide mais próximo utilizando de cálculos de distância euclidiana;
+3. __Reposicionamento dos Centroides:__ Separados as observações em cada um dos K grupos, a partir das observações recalcula-se a posição dos centroides como a média da posição das observações dentro de determinado grupo;
+4. __Processo Iterativo:__ Os passos 2 e 3 serão repetidos até que o modelo considere que não houve mais alterações na posição dos centroides, levando em considerando uma margem de erro para as variações do posicionamento do centroide, ou mesmo quando o número máximo de iterações é atingido.
+
 ### Método do cotovelo
 
+A ideia é executar o K-Means para várias quantidades diferentes de clusters e dizer qual dessas quantidades é o número ótimo de clusters.
+
+Como o K-Means calcula a distância das observações até o centro do agrupamento que ela pertence, o ideal é que essa distância seja a menor viável. Matematicamente falando, nós estamos buscando uma quantidade de agrupamentos em que a soma dos quadrados intra-clusters (ou do inglês within-clusters sum-of-squares ou _wcss_) seja a menor possível, sendo zero o resultado ótimo.
+
+__The Elbow Method__
+
+Na representação abaixo podemos ver que após 3 não há diminuição significativa no WCSS, então
+3 é o melhor aqui. Portanto, há um formato de cotovelo que se forma e geralmente é uma boa ideia
+escolher o número onde esse cotovelo é formado. Muitas vezes o gráfico não seria tão intuitivo, mas
+com a prática fica mais fácil.
+
+![elbow_method](./images/elbow_method.png)
+
 ### Método silhueta
+ 
+Silhueta refere-se a um __método estatístico utilizado para interpretação e validação de consistência dentro dos clusters__ formados. O valor da silhueta (também chamado de coeficiente de silhueta) é uma medida de quão semelhante um objeto é ao seu próprio cluster __(coesão)__, em comparação com outros clusters __(separação)__. Este valor pode ser calculado com qualquer métrica de distância, como a euclidiana ou a de Manhattan. 
+
+Os coeficientes de silhueta variam de -1 a +1. 
+
+* Os valores **próximos a +1 (alto grau de coesão)** indicam que a amostra está longe dos clusters vizinhos, ou seja, indica que o objeto está no grupo que deveria se encontrar e que não deveria ser agrupado aos grupos vizinhos. 
+* **Valores negativos** indicam que essas amostras podem ter sido atribuídas ao **cluster errado**.
+* Um **valor zero** indica que a amostra está dentro ou muito perto do **limite de decisão entre dois clusters** vizinhos. 
+
+**O método**
+
+1. Para cada ponto _i_, calcula-se a distância intra-cluster, denominada de _a(i)_. Esta distância é calculada através da distância média de _i_ para todos os outros pontos que foram agrupados dentro deste mesmo cluster.
+2. Para cada ponto _i_, calcula-se a distância inter-cluster, denominada _b(i)_. Esta distância é calculada através da distância média de _i_ para todos os outros pontos que foram agrupados em clusters distintos do ponto _i_. Assim, o valor de _b(i)_ será denominado pela menor distância média de _i_ para todos os pontos pertencentes a outros grupos, do qual _i_ não é um membro. O grupo com essa menor dissimilaridade média é o "grupo vizinho" de _i_.
+3. Para cada ponto _i_, o coeficiente de silhueta pode ser descrito pela equação abaixo. Ademais, uma ilustração correspondente aos elementos envolvidos no cálculo de _s(i)_ pode ser visualizada na figura abaixo.
+
+![metodo_silhueta](./images/silhueta.png)
+
+Semelhante ao [método anterior](#k-médias-k-means), escolhemos um intervalo de valores candidatos de _k_ e, em seguida, treinamos o agrupamento K-Means para cada um dos valores de _k_. Para cada
+modelo de agrupamento k-Means representamos os coeficientes de silhueta em um gráfico e observamos as flutuações de cada cluster.
+
+![silhouette_kmeans](./images/silhouette_kmeans.png)
+
+![analyses](./images/sphx_glr_plot_kmeans_silhouette_analysis_004.png)
 
 
-## Bibliografia
+# Bibliografia
+* [Thaís Ratis - Curso DataScience](https://github.com/thaisratis/Curso_DataScience_Minsait)
+* [Diego Mariano](https://diegomariano.com/metricas-de-avaliacao-em-machine-learning/)
 * [Steps to Solve a Data Science Problem](https://thecleverprogrammer.com/2023/09/05/steps-to-solve-a-data-science-problem/)
