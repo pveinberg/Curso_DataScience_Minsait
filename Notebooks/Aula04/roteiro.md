@@ -69,7 +69,7 @@ O desvio da amostra da diferença entre o previsto e o realizado.
 #### Erro de porcentagem absoluta média (MAPE)
 Diferença absoluta percentual de erro.
 
-## Regressão
+## Modelos de regressão
 Para o funcionamento do modelo de regressão serão fornecidas informações na forma de variáveis atributos e o modelo estimará o valor da variável resposta usando dados de referência durante o treinamento. Lembrando que, para o caso da Regressão, __o tipo de resposta esperado na saída será um valor contínuo representativo de acordo com a variável resposta__. Especificamente quando se trata de Regressões Lineares, a inferência feita sobre a relação entre as variáveis é que pode ser descrita por uma equação de reta.
 
 ### Regressão linear
@@ -79,12 +79,16 @@ Na regressão linear simples, tem-se um conjunto de dados formado por **um únic
 
 [Exemplo 01](./exemplo_regressao_linear.ipynb)
 
+Para validar utiilizar [métricas de avaliação de modelos de regressão](#métricas-de-avaliação-de-modelos-de-regressão)
+
 ## Classificação: Algoritmo k-NN
 __Vizinhos mais próximos__
 
 * Classifica um novo objeto com base nos exemplos do conjunto de treinamento que são próximos a ele;
 * Pode ser utilizado tanto para classificação quanto para regressão;
 * Tem variações definidas (principalmente) pelo número de vizinhos considerados.
+
+Para validar, utilizar [métricas de avaliação de modelos de classificação](#métricas-de-avaliação-de-modelos-de-classificação-binária)
 
 ### Tipos de distâncias
 ![distancias](./distancias.jpg)
@@ -107,6 +111,37 @@ Representa a **falta de uniformidade** ou uma medida de aleatoriedade nos dados.
 
 #### Ganho de informação
 É uma propriedade estatística que **mede quão bem um determinado atributo separa os exemplos de treinamento de acordo com sua classificação** alvo ou rótulo. Em outras palavras, o ganho de informação **representa a informação aprendida sobre os rótulos** quando dividimos uma região do espaço em duas sub-regiões de acordo com um critério de divisão como a entropia ou impureza (gini), citadas acima.
+
+# Não supervisionados
+
+* Baseia-se na separação de clusters baseados em catacterísticas. 
+* A clusterização é centrada em pontos e o critério é que os elementos devem estar mais perto do seu cetro do que dos centros dos outros clusters. 
+* O centro de um cluster pode ser um centróide, como a média aritmética dos pontos do cluster.
+  
+__Exemplo de clusterização__
+
+![clusterizacao](image.png)
+
+## Características principais
+
+### Matriz de similaridade
+
+Representa a similaridade ou a dissimilaridade entre cada par de objetos.
+
+* __Similaridade:__ uma das medidas mais usadas é a __correlação__.
+* __Dissimilaridade:__ uma medida comum é a __distância euclideana__. 
+
+### Validação 
+
+* Determina se os clusters são significativos, ou seja, se a solução é representativa para o conjunto de dados analisado.
+* Determina o número apropriado de clusters para um conjunto de dados, que em geral não é conhecido previamente.
+
+## K-médias (K-means)
+
+### Método do cotovelo
+
+### Método silhueta
+
 
 ## Bibliografia
 * [Steps to Solve a Data Science Problem](https://thecleverprogrammer.com/2023/09/05/steps-to-solve-a-data-science-problem/)
