@@ -1,0 +1,1268 @@
+========================================
+Dimension: all
+Cluster #:  2
+========================================
+0                           Afghanistan
+4                                Angola
+18                                Benin
+26                         Burkina Faso
+27                              Burundi
+28                          Ivory Coast
+31                             Cameroon
+33             Central African Republic
+34                                 Chad
+38                              Comoros
+39                Republic of the Congo
+45     Democratic Republic of the Congo
+53                    Equatorial Guinea
+54                              Eritrea
+62                           The Gambia
+69                               Guinea
+70                        Guinea-Bissau
+96                              Liberia
+105                                Mali
+108                          Mauritania
+117                          Mozambique
+125                               Niger
+126                             Nigeria
+131                            Pakistan
+155                        Sierra Leone
+160                             Somalia
+163                         South Sudan
+175                                Togo
+182                              Uganda
+Name: Country, dtype: object
+========================================
+Dimension: all
+Cluster #:  3
+========================================
+1                               Albania
+2                               Algeria
+7                               Armenia
+10                           Azerbaijan
+11                          The Bahamas
+12                              Bahrain
+14                             Barbados
+17                               Belize
+21               Bosnia and Herzegovina
+25                             Bulgaria
+41                              Croatia
+43                               Cyprus
+48                             Dominica
+50                              Ecuador
+52                          El Salvador
+55                              Estonia
+66                               Greece
+67                              Grenada
+85                                Japan
+86                               Jordan
+90                               Kuwait
+93                               Latvia
+94                              Lebanon
+97                                Libya
+103                            Malaysia
+104                            Maldives
+109                           Mauritius
+116                             Morocco
+130                                Oman
+134                              Panama
+141                               Qatar
+142                             Romania
+145               Saint Kitts and Nevis
+146                         Saint Lucia
+147    Saint Vincent and the Grenadines
+151                        Saudi Arabia
+162                         South Korea
+177                 Trinidad and Tobago
+Name: Country, dtype: object
+========================================
+Dimension: all
+Cluster #:  4
+========================================
+3                             Andorra
+6                           Argentina
+13                         Bangladesh
+15                            Belarus
+20                            Bolivia
+23                             Brazil
+24                             Brunei
+37                           Colombia
+42                               Cuba
+49                 Dominican Republic
+51                              Egypt
+56                           Eswatini
+63                            Georgia
+73                       Vatican City
+74                           Honduras
+77                              India
+79                               Iran
+84                            Jamaica
+87                         Kazakhstan
+91                         Kyrgyzstan
+98                      Liechtenstein
+110                            Mexico
+112                           Moldova
+113                            Monaco
+114                          Mongolia
+120                             Nauru
+121                             Nepal
+124                         Nicaragua
+127                       North Korea
+128                   North Macedonia
+133    Palestinian National Authority
+136                          Paraguay
+137                              Peru
+143                            Russia
+165                         Sri Lanka
+170                             Syria
+171                        Tajikistan
+178                           Tunisia
+180                      Turkmenistan
+181                            Tuvalu
+183                           Ukraine
+187                           Uruguay
+188                        Uzbekistan
+190                         Venezuela
+191                           Vietnam
+Name: Country, dtype: object
+========================================
+Dimension: all
+Cluster #:  1
+========================================
+5       Antigua and Barbuda
+8                 Australia
+9                   Austria
+16                  Belgium
+29               Cape Verde
+32                   Canada
+35                    Chile
+36                    China
+40               Costa Rica
+44           Czech Republic
+46                  Denmark
+59                  Finland
+60                   France
+64                  Germany
+75                  Hungary
+76                  Iceland
+81      Republic of Ireland
+82                   Israel
+83                    Italy
+99                Lithuania
+100              Luxembourg
+106                   Malta
+115              Montenegro
+122             Netherlands
+123             New Zealand
+129                  Norway
+139                  Poland
+140                Portugal
+149              San Marino
+153                  Serbia
+156               Singapore
+157                Slovakia
+158                Slovenia
+164                   Spain
+168                  Sweden
+169             Switzerland
+173                Thailand
+179                  Turkey
+184    United Arab Emirates
+185          United Kingdom
+186           United States
+Name: Country, dtype: object
+========================================
+Dimension: all
+Cluster #:  0
+========================================
+19                             Bhutan
+22                           Botswana
+30                           Cambodia
+47                           Djibouti
+57                           Ethiopia
+58                               Fiji
+61                              Gabon
+65                              Ghana
+68                          Guatemala
+71                             Guyana
+72                              Haiti
+78                          Indonesia
+80                               Iraq
+88                              Kenya
+89                           Kiribati
+92                               Laos
+95                            Lesotho
+101                        Madagascar
+102                            Malawi
+107                  Marshall Islands
+111    Federated States of Micronesia
+118                           Myanmar
+119                           Namibia
+132                             Palau
+135                  Papua New Guinea
+138                       Philippines
+144                            Rwanda
+148                             Samoa
+150                      S�����������
+152                           Senegal
+154                        Seychelles
+159                   Solomon Islands
+161                      South Africa
+166                             Sudan
+167                          Suriname
+172                          Tanzania
+174                        East Timor
+176                             Tonga
+189                           Vanuatu
+192                             Yemen
+193                            Zambia
+194                          Zimbabwe
+Name: Country, dtype: object
+========================================
+Dimension: economics
+Cluster #:  3
+========================================
+0                   Afghanistan
+2                       Algeria
+3                       Andorra
+23                       Brazil
+33     Central African Republic
+42                         Cuba
+51                        Egypt
+54                      Eritrea
+56                     Eswatini
+62                   The Gambia
+63                      Georgia
+69                       Guinea
+77                        India
+101                  Madagascar
+107            Marshall Islands
+110                      Mexico
+112                     Moldova
+120                       Nauru
+124                   Nicaragua
+127                 North Korea
+128             North Macedonia
+143                      Russia
+166                       Sudan
+183                     Ukraine
+Name: Country, dtype: object
+========================================
+Dimension: economics
+Cluster #:  1
+========================================
+1                             Albania
+5                 Antigua and Barbuda
+8                           Australia
+9                             Austria
+11                        The Bahamas
+16                            Belgium
+17                             Belize
+18                              Benin
+24                             Brunei
+26                       Burkina Faso
+27                            Burundi
+28                        Ivory Coast
+29                         Cape Verde
+31                           Cameroon
+34                               Chad
+36                              China
+38                            Comoros
+39              Republic of the Congo
+44                     Czech Republic
+50                            Ecuador
+52                        El Salvador
+53                  Equatorial Guinea
+55                            Estonia
+59                            Finland
+60                             France
+61                              Gabon
+64                            Germany
+66                             Greece
+67                            Grenada
+70                      Guinea-Bissau
+83                              Italy
+85                              Japan
+93                             Latvia
+103                          Malaysia
+105                              Mali
+106                             Malta
+111    Federated States of Micronesia
+116                           Morocco
+123                       New Zealand
+125                             Niger
+132                             Palau
+138                       Philippines
+140                          Portugal
+145             Saint Kitts and Nevis
+146                       Saint Lucia
+149                        San Marino
+152                           Senegal
+157                          Slovakia
+162                       South Korea
+164                             Spain
+168                            Sweden
+175                              Togo
+177               Trinidad and Tobago
+194                          Zimbabwe
+Name: Country, dtype: object
+========================================
+Dimension: economics
+Cluster #:  0
+========================================
+4                                Angola
+10                           Azerbaijan
+14                             Barbados
+15                              Belarus
+20                              Bolivia
+37                             Colombia
+40                           Costa Rica
+45     Democratic Republic of the Congo
+49                   Dominican Republic
+57                             Ethiopia
+65                                Ghana
+68                            Guatemala
+72                                Haiti
+73                         Vatican City
+79                                 Iran
+88                                Kenya
+96                              Liberia
+98                        Liechtenstein
+102                              Malawi
+108                          Mauritania
+113                              Monaco
+118                             Myanmar
+121                               Nepal
+133      Palestinian National Authority
+150                        S�����������
+160                             Somalia
+165                           Sri Lanka
+170                               Syria
+171                          Tajikistan
+172                            Tanzania
+178                             Tunisia
+179                              Turkey
+180                        Turkmenistan
+181                              Tuvalu
+187                             Uruguay
+188                          Uzbekistan
+189                             Vanuatu
+190                           Venezuela
+Name: Country, dtype: object
+========================================
+Dimension: economics
+Cluster #:  2
+========================================
+6             Argentina
+7               Armenia
+13           Bangladesh
+19               Bhutan
+22             Botswana
+30             Cambodia
+32               Canada
+35                Chile
+47             Djibouti
+74             Honduras
+75              Hungary
+76              Iceland
+78            Indonesia
+84              Jamaica
+87           Kazakhstan
+89             Kiribati
+90               Kuwait
+92                 Laos
+95              Lesotho
+109           Mauritius
+114            Mongolia
+117          Mozambique
+119             Namibia
+126             Nigeria
+131            Pakistan
+135    Papua New Guinea
+136            Paraguay
+137                Peru
+142             Romania
+144              Rwanda
+154          Seychelles
+155        Sierra Leone
+159     Solomon Islands
+161        South Africa
+163         South Sudan
+167            Suriname
+174          East Timor
+176               Tonga
+182              Uganda
+186       United States
+191             Vietnam
+192               Yemen
+193              Zambia
+Name: Country, dtype: object
+========================================
+Dimension: economics
+Cluster #:  4
+========================================
+12                              Bahrain
+21               Bosnia and Herzegovina
+25                             Bulgaria
+41                              Croatia
+43                               Cyprus
+46                              Denmark
+48                             Dominica
+58                                 Fiji
+71                               Guyana
+80                                 Iraq
+81                  Republic of Ireland
+82                               Israel
+86                               Jordan
+91                           Kyrgyzstan
+94                              Lebanon
+97                                Libya
+99                            Lithuania
+100                          Luxembourg
+104                            Maldives
+115                          Montenegro
+122                         Netherlands
+129                              Norway
+130                                Oman
+134                              Panama
+139                              Poland
+141                               Qatar
+147    Saint Vincent and the Grenadines
+148                               Samoa
+151                        Saudi Arabia
+153                              Serbia
+156                           Singapore
+158                            Slovenia
+169                         Switzerland
+173                            Thailand
+184                United Arab Emirates
+185                      United Kingdom
+Name: Country, dtype: object
+========================================
+Dimension: education
+Cluster #:  1
+========================================
+0                           Afghanistan
+1                               Albania
+2                               Algeria
+3                               Andorra
+4                                Angola
+6                             Argentina
+9                               Austria
+15                              Belarus
+16                              Belgium
+32                               Canada
+35                                Chile
+36                                China
+44                       Czech Republic
+45     Democratic Republic of the Congo
+46                              Denmark
+48                             Dominica
+49                   Dominican Republic
+57                             Ethiopia
+59                              Finland
+60                               France
+64                              Germany
+75                              Hungary
+76                              Iceland
+79                                 Iran
+81                  Republic of Ireland
+82                               Israel
+83                                Italy
+87                           Kazakhstan
+89                             Kiribati
+97                                Libya
+99                            Lithuania
+106                               Malta
+114                            Mongolia
+115                          Montenegro
+117                          Mozambique
+122                         Netherlands
+123                         New Zealand
+129                              Norway
+137                                Peru
+139                              Poland
+140                            Portugal
+143                              Russia
+145               Saint Kitts and Nevis
+148                               Samoa
+153                              Serbia
+156                           Singapore
+158                            Slovenia
+159                     Solomon Islands
+164                               Spain
+169                         Switzerland
+185                      United Kingdom
+186                       United States
+187                             Uruguay
+Name: Country, dtype: object
+========================================
+Dimension: education
+Cluster #:  3
+========================================
+5           Antigua and Barbuda
+8                     Australia
+17                       Belize
+19                       Bhutan
+22                     Botswana
+24                       Brunei
+29                   Cape Verde
+30                     Cambodia
+31                     Cameroon
+33     Central African Republic
+39        Republic of the Congo
+42                         Cuba
+50                      Ecuador
+51                        Egypt
+58                         Fiji
+65                        Ghana
+67                      Grenada
+68                    Guatemala
+77                        India
+78                    Indonesia
+80                         Iraq
+88                        Kenya
+91                   Kyrgyzstan
+92                         Laos
+98                Liechtenstein
+100                  Luxembourg
+103                    Malaysia
+109                   Mauritius
+110                      Mexico
+127                 North Korea
+130                        Oman
+136                    Paraguay
+138                 Philippines
+141                       Qatar
+146                 Saint Lucia
+149                  San Marino
+150                S�����������
+154                  Seychelles
+161                South Africa
+165                   Sri Lanka
+171                  Tajikistan
+177         Trinidad and Tobago
+182                      Uganda
+184        United Arab Emirates
+188                  Uzbekistan
+189                     Vanuatu
+191                     Vietnam
+Name: Country, dtype: object
+========================================
+Dimension: education
+Cluster #:  4
+========================================
+7                     Armenia
+10                 Azerbaijan
+12                    Bahrain
+21     Bosnia and Herzegovina
+23                     Brazil
+26               Burkina Faso
+27                    Burundi
+34                       Chad
+37                   Colombia
+40                 Costa Rica
+47                   Djibouti
+52                El Salvador
+54                    Eritrea
+74                   Honduras
+84                    Jamaica
+86                     Jordan
+90                     Kuwait
+94                    Lebanon
+101                Madagascar
+104                  Maldives
+105                      Mali
+108                Mauritania
+112                   Moldova
+116                   Morocco
+125                     Niger
+132                     Palau
+134                    Panama
+142                   Romania
+144                    Rwanda
+157                  Slovakia
+168                    Sweden
+170                     Syria
+172                  Tanzania
+173                  Thailand
+176                     Tonga
+178                   Tunisia
+179                    Turkey
+193                    Zambia
+Name: Country, dtype: object
+========================================
+Dimension: education
+Cluster #:  0
+========================================
+11                          The Bahamas
+13                           Bangladesh
+18                                Benin
+53                    Equatorial Guinea
+62                           The Gambia
+66                               Greece
+69                               Guinea
+70                        Guinea-Bissau
+71                               Guyana
+72                                Haiti
+95                              Lesotho
+96                              Liberia
+102                              Malawi
+107                    Marshall Islands
+111      Federated States of Micronesia
+118                             Myanmar
+119                             Namibia
+121                               Nepal
+124                           Nicaragua
+126                             Nigeria
+135                    Papua New Guinea
+147    Saint Vincent and the Grenadines
+152                             Senegal
+155                        Sierra Leone
+160                             Somalia
+166                               Sudan
+167                            Suriname
+174                          East Timor
+175                                Togo
+192                               Yemen
+194                            Zimbabwe
+Name: Country, dtype: object
+========================================
+Dimension: education
+Cluster #:  2
+========================================
+14                           Barbados
+20                            Bolivia
+25                           Bulgaria
+28                        Ivory Coast
+38                            Comoros
+41                            Croatia
+43                             Cyprus
+55                            Estonia
+56                           Eswatini
+61                              Gabon
+63                            Georgia
+73                       Vatican City
+85                              Japan
+93                             Latvia
+113                            Monaco
+120                             Nauru
+128                   North Macedonia
+131                          Pakistan
+133    Palestinian National Authority
+151                      Saudi Arabia
+162                       South Korea
+163                       South Sudan
+180                      Turkmenistan
+181                            Tuvalu
+183                           Ukraine
+190                         Venezuela
+Name: Country, dtype: object
+========================================
+Dimension: geo_enviroment
+Cluster #:  4
+========================================
+0                 Afghanistan
+1                     Albania
+3                     Andorra
+5         Antigua and Barbuda
+9                     Austria
+10                 Azerbaijan
+12                    Bahrain
+21     Bosnia and Herzegovina
+29                 Cape Verde
+32                     Canada
+36                      China
+41                    Croatia
+43                     Cyprus
+44             Czech Republic
+46                    Denmark
+55                    Estonia
+60                     France
+63                    Georgia
+75                    Hungary
+80                       Iraq
+81        Republic of Ireland
+83                      Italy
+86                     Jordan
+93                     Latvia
+99                  Lithuania
+122               Netherlands
+129                    Norway
+131                  Pakistan
+139                    Poland
+140                  Portugal
+149                San Marino
+153                    Serbia
+157                  Slovakia
+164                     Spain
+165                 Sri Lanka
+168                    Sweden
+169               Switzerland
+173                  Thailand
+179                    Turkey
+183                   Ukraine
+184      United Arab Emirates
+186             United States
+Name: Country, dtype: object
+========================================
+Dimension: geo_enviroment
+Cluster #:  0
+========================================
+2           Algeria
+4            Angola
+11      The Bahamas
+14         Barbados
+20          Bolivia
+26     Burkina Faso
+34             Chad
+38          Comoros
+42             Cuba
+51            Egypt
+57         Ethiopia
+65            Ghana
+68        Guatemala
+69           Guinea
+76          Iceland
+77            India
+94          Lebanon
+95          Lesotho
+96          Liberia
+102          Malawi
+104        Maldives
+105            Mali
+106           Malta
+108      Mauritania
+109       Mauritius
+125           Niger
+138     Philippines
+141           Qatar
+144          Rwanda
+152         Senegal
+192           Yemen
+194        Zimbabwe
+Name: Country, dtype: object
+========================================
+Dimension: geo_enviroment
+Cluster #:  3
+========================================
+6                             Argentina
+22                             Botswana
+23                               Brazil
+31                             Cameroon
+33             Central African Republic
+35                                Chile
+39                Republic of the Congo
+40                           Costa Rica
+48                             Dominica
+49                   Dominican Republic
+50                              Ecuador
+56                             Eswatini
+67                              Grenada
+70                        Guinea-Bissau
+71                               Guyana
+88                                Kenya
+89                             Kiribati
+101                          Madagascar
+117                          Mozambique
+119                             Namibia
+126                             Nigeria
+133      Palestinian National Authority
+134                              Panama
+136                            Paraguay
+137                                Peru
+145               Saint Kitts and Nevis
+146                         Saint Lucia
+147    Saint Vincent and the Grenadines
+148                               Samoa
+150                        S�����������
+155                        Sierra Leone
+161                        South Africa
+163                         South Sudan
+167                            Suriname
+172                            Tanzania
+175                                Togo
+176                               Tonga
+177                 Trinidad and Tobago
+182                              Uganda
+190                           Venezuela
+193                              Zambia
+Name: Country, dtype: object
+========================================
+Dimension: geo_enviroment
+Cluster #:  2
+========================================
+7              Armenia
+13          Bangladesh
+15             Belarus
+16             Belgium
+17              Belize
+18               Benin
+25            Bulgaria
+27             Burundi
+28         Ivory Coast
+37            Colombia
+47            Djibouti
+52         El Salvador
+54             Eritrea
+59             Finland
+62          The Gambia
+64             Germany
+66              Greece
+72               Haiti
+73        Vatican City
+74            Honduras
+84             Jamaica
+87          Kazakhstan
+90              Kuwait
+91          Kyrgyzstan
+97               Libya
+98       Liechtenstein
+100         Luxembourg
+110             Mexico
+112            Moldova
+113             Monaco
+116            Morocco
+121              Nepal
+124          Nicaragua
+128    North Macedonia
+130               Oman
+142            Romania
+151       Saudi Arabia
+160            Somalia
+170              Syria
+171         Tajikistan
+178            Tunisia
+180       Turkmenistan
+185     United Kingdom
+187            Uruguay
+188         Uzbekistan
+Name: Country, dtype: object
+========================================
+Dimension: geo_enviroment
+Cluster #:  1
+========================================
+8                             Australia
+19                               Bhutan
+24                               Brunei
+30                             Cambodia
+45     Democratic Republic of the Congo
+53                    Equatorial Guinea
+58                                 Fiji
+61                                Gabon
+78                            Indonesia
+79                                 Iran
+82                               Israel
+85                                Japan
+92                                 Laos
+103                            Malaysia
+107                    Marshall Islands
+111      Federated States of Micronesia
+114                            Mongolia
+115                          Montenegro
+118                             Myanmar
+120                               Nauru
+123                         New Zealand
+127                         North Korea
+132                               Palau
+135                    Papua New Guinea
+143                              Russia
+154                          Seychelles
+156                           Singapore
+158                            Slovenia
+159                     Solomon Islands
+162                         South Korea
+166                               Sudan
+174                          East Timor
+181                              Tuvalu
+189                             Vanuatu
+191                             Vietnam
+Name: Country, dtype: object
+========================================
+Dimension: healt
+Cluster #:  3
+========================================
+0                           Afghanistan
+18                                Benin
+28                          Ivory Coast
+31                             Cameroon
+33             Central African Republic
+34                                 Chad
+45     Democratic Republic of the Congo
+53                    Equatorial Guinea
+69                               Guinea
+70                        Guinea-Bissau
+105                                Mali
+108                          Mauritania
+117                          Mozambique
+125                               Niger
+126                             Nigeria
+155                        Sierra Leone
+160                             Somalia
+163                         South Sudan
+Name: Country, dtype: object
+========================================
+Dimension: healt
+Cluster #:  2
+========================================
+1                             Albania
+10                         Azerbaijan
+13                         Bangladesh
+22                           Botswana
+24                             Brunei
+30                           Cambodia
+49                 Dominican Republic
+51                              Egypt
+67                            Grenada
+68                          Guatemala
+71                             Guyana
+73                       Vatican City
+74                           Honduras
+77                              India
+78                          Indonesia
+80                               Iraq
+91                         Kyrgyzstan
+92                               Laos
+98                      Liechtenstein
+116                           Morocco
+118                           Myanmar
+119                           Namibia
+120                             Nauru
+121                             Nepal
+127                       North Korea
+130                              Oman
+131                          Pakistan
+133    Palestinian National Authority
+138                       Philippines
+145             Saint Kitts and Nevis
+146                       Saint Lucia
+161                      South Africa
+170                             Syria
+171                        Tajikistan
+180                      Turkmenistan
+188                        Uzbekistan
+189                           Vanuatu
+190                         Venezuela
+192                             Yemen
+Name: Country, dtype: object
+========================================
+Dimension: healt
+Cluster #:  4
+========================================
+2                               Algeria
+11                          The Bahamas
+12                              Bahrain
+17                               Belize
+19                               Bhutan
+20                              Bolivia
+23                               Brazil
+29                           Cape Verde
+36                                China
+37                             Colombia
+48                             Dominica
+50                              Ecuador
+52                          El Salvador
+56                             Eswatini
+58                                 Fiji
+79                                 Iran
+84                              Jamaica
+86                               Jordan
+87                           Kazakhstan
+90                               Kuwait
+94                              Lebanon
+97                                Libya
+103                            Malaysia
+110                              Mexico
+111      Federated States of Micronesia
+114                            Mongolia
+124                           Nicaragua
+128                     North Macedonia
+132                               Palau
+134                              Panama
+136                            Paraguay
+137                                Peru
+147    Saint Vincent and the Grenadines
+148                               Samoa
+151                        Saudi Arabia
+154                          Seychelles
+165                           Sri Lanka
+167                            Suriname
+173                            Thailand
+176                               Tonga
+178                             Tunisia
+179                              Turkey
+181                              Tuvalu
+191                             Vietnam
+Name: Country, dtype: object
+========================================
+Dimension: healt
+Cluster #:  1
+========================================
+3                   Andorra
+5       Antigua and Barbuda
+6                 Argentina
+7                   Armenia
+8                 Australia
+               ...         
+183                 Ukraine
+184    United Arab Emirates
+185          United Kingdom
+186           United States
+187                 Uruguay
+Name: Country, Length: 63, dtype: object
+========================================
+Dimension: healt
+Cluster #:  0
+========================================
+4                     Angola
+26              Burkina Faso
+27                   Burundi
+38                   Comoros
+39     Republic of the Congo
+47                  Djibouti
+54                   Eritrea
+57                  Ethiopia
+61                     Gabon
+62                The Gambia
+65                     Ghana
+72                     Haiti
+88                     Kenya
+89                  Kiribati
+95                   Lesotho
+96                   Liberia
+101               Madagascar
+102                   Malawi
+107         Marshall Islands
+135         Papua New Guinea
+144                   Rwanda
+150             S�����������
+152                  Senegal
+159          Solomon Islands
+166                    Sudan
+172                 Tanzania
+174               East Timor
+175                     Togo
+182                   Uganda
+193                   Zambia
+194                 Zimbabwe
+Name: Country, dtype: object
+========================================
+Dimension: population
+Cluster #:  0
+========================================
+0                           Afghanistan
+10                           Azerbaijan
+13                           Bangladesh
+14                             Barbados
+18                                Benin
+20                              Bolivia
+26                         Burkina Faso
+34                                 Chad
+36                                China
+42                                 Cuba
+43                               Cyprus
+44                       Czech Republic
+49                   Dominican Republic
+51                                Egypt
+53                    Equatorial Guinea
+55                              Estonia
+56                             Eswatini
+66                               Greece
+67                              Grenada
+68                            Guatemala
+69                               Guinea
+70                        Guinea-Bissau
+72                                Haiti
+77                                India
+86                               Jordan
+89                             Kiribati
+95                              Lesotho
+105                                Mali
+109                           Mauritius
+120                               Nauru
+128                     North Macedonia
+138                         Philippines
+140                            Portugal
+147    Saint Vincent and the Grenadines
+152                             Senegal
+160                             Somalia
+168                              Sweden
+170                               Syria
+177                 Trinidad and Tobago
+178                             Tunisia
+181                              Tuvalu
+189                             Vanuatu
+193                              Zambia
+194                            Zimbabwe
+Name: Country, dtype: object
+========================================
+Dimension: population
+Cluster #:  2
+========================================
+1                             Albania
+2                             Algeria
+7                             Armenia
+11                        The Bahamas
+12                            Bahrain
+16                            Belgium
+17                             Belize
+21             Bosnia and Herzegovina
+22                           Botswana
+27                            Burundi
+28                        Ivory Coast
+31                           Cameroon
+32                             Canada
+33           Central African Republic
+41                            Croatia
+57                           Ethiopia
+61                              Gabon
+62                         The Gambia
+63                            Georgia
+65                              Ghana
+71                             Guyana
+76                            Iceland
+78                          Indonesia
+80                               Iraq
+84                            Jamaica
+85                              Japan
+93                             Latvia
+96                            Liberia
+99                          Lithuania
+101                        Madagascar
+102                            Malawi
+104                          Maldives
+108                        Mauritania
+111    Federated States of Micronesia
+116                           Morocco
+118                           Myanmar
+119                           Namibia
+122                       Netherlands
+125                             Niger
+126                           Nigeria
+127                       North Korea
+132                             Palau
+141                             Qatar
+145             Saint Kitts and Nevis
+146                       Saint Lucia
+151                      Saudi Arabia
+159                   Solomon Islands
+163                       South Sudan
+166                             Sudan
+192                             Yemen
+Name: Country, dtype: object
+========================================
+Dimension: population
+Cluster #:  4
+========================================
+3                               Andorra
+5                   Antigua and Barbuda
+9                               Austria
+15                              Belarus
+19                               Bhutan
+25                             Bulgaria
+38                              Comoros
+39                Republic of the Congo
+45     Democratic Republic of the Congo
+46                              Denmark
+47                             Djibouti
+48                             Dominica
+58                                 Fiji
+60                               France
+64                              Germany
+73                         Vatican City
+75                              Hungary
+79                                 Iran
+82                               Israel
+83                                Italy
+92                                 Laos
+94                              Lebanon
+97                                Libya
+98                        Liechtenstein
+100                          Luxembourg
+107                    Marshall Islands
+113                              Monaco
+123                         New Zealand
+130                                Oman
+133      Palestinian National Authority
+154                          Seychelles
+155                        Sierra Leone
+161                        South Africa
+162                         South Korea
+167                            Suriname
+169                         Switzerland
+175                                Togo
+184                United Arab Emirates
+185                      United Kingdom
+Name: Country, dtype: object
+========================================
+Dimension: population
+Cluster #:  3
+========================================
+4                Angola
+6             Argentina
+8             Australia
+23               Brazil
+29           Cape Verde
+35                Chile
+40           Costa Rica
+52          El Salvador
+54              Eritrea
+59              Finland
+90               Kuwait
+91           Kyrgyzstan
+106               Malta
+112             Moldova
+114            Mongolia
+121               Nepal
+129              Norway
+131            Pakistan
+135    Papua New Guinea
+136            Paraguay
+137                Peru
+139              Poland
+150        S�����������
+153              Serbia
+157            Slovakia
+158            Slovenia
+165           Sri Lanka
+173            Thailand
+176               Tonga
+179              Turkey
+180        Turkmenistan
+182              Uganda
+187             Uruguay
+190           Venezuela
+191             Vietnam
+Name: Country, dtype: object
+========================================
+Dimension: population
+Cluster #:  1
+========================================
+24                  Brunei
+30                Cambodia
+37                Colombia
+50                 Ecuador
+74                Honduras
+81     Republic of Ireland
+87              Kazakhstan
+88                   Kenya
+103               Malaysia
+110                 Mexico
+115             Montenegro
+117             Mozambique
+124              Nicaragua
+134                 Panama
+142                Romania
+143                 Russia
+144                 Rwanda
+148                  Samoa
+149             San Marino
+156              Singapore
+164                  Spain
+171             Tajikistan
+172               Tanzania
+174             East Timor
+183                Ukraine
+186          United States
+188             Uzbekistan
+Name: Country, dtype: object
