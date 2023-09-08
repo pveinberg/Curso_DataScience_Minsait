@@ -114,6 +114,8 @@ Representa a **falta de uniformidade** ou uma medida de aleatoriedade nos dados.
 #### Ganho de informação
 É uma propriedade estatística que **mede quão bem um determinado atributo separa os exemplos de treinamento de acordo com sua classificação** alvo ou rótulo. Em outras palavras, o ganho de informação **representa a informação aprendida sobre os rótulos** quando dividimos uma região do espaço em duas sub-regiões de acordo com um critério de divisão como a entropia ou impureza (gini), citadas acima.
 
+[Exemplo de Árvore de Decisão](./tree.ipynb)
+
 # Não supervisionados
 
 * Baseia-se na separação de clusters baseados em catacterísticas. 
