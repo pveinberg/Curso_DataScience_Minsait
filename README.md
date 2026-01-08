@@ -12,3 +12,5 @@ Material referente ao curso da Minsait
 ## Aula 4: Visão Geral de ML [[link]](#)
 
 ## Aula 5: Prova prática [[link]](#)
+
+## Outros
